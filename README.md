@@ -1,178 +1,161 @@
 # FreeGPT WebUI v2
 
-**I have maintained this repository as long as I could.  
-Due to the deterioration of the available methods of using GPT 3.5 / 4.0, I am archiving this repository.  
-The g4f project has become unstable and has fewer providers.  
-But, I am grateful for the existence of this project, it gave me a lot of new experiences.
-In the future, I plan to launch a text neural network on my website [vadimboev.ru/gpt](https://vadimboev.ru/gpt)**
+**Ich habe dieses Repository so lange wie möglich gepflegt.  
+Aufgrund der Verschlechterung der verfügbaren Methoden zur Nutzung von GPT 3.5 / 4.0 archiviere ich dieses Repository.  
+Das g4f-Projekt ist instabil geworden und hat weniger Anbieter.  
+Ich bin jedoch dankbar für die Existenz dieses Projekts, da es mir viele neue Erfahrungen gebracht hat.  
+In Zukunft plane ich, ein Textneuronales Netzwerk auf meiner Website zu starten: [vadimboev.ru/gpt](https://vadimboev.ru/gpt)**
 
 ____
 
-With some UI improvements 😄
-  
-Desktop
+Mit einigen UI-Verbesserungen 😄
+
+Desktop  
 <img src="https://github.com/VadimBoev/freegpt-webui-v2/blob/main/webui-gpt.png" width="1000" />
-  
-Mobile Device  
+
+Mobilgerät  
 <img src="https://github.com/VadimBoev/freegpt-webui-v2/blob/main/mobile-ui.png" width="30%" />
 
 ## GPT 3.5/4
 
-<strong>NOT REQUIRE ANY API KEY</strong> ❌🔑 
+<strong>KEIN API-SCHLÜSSEL ERFORDERLICH</strong> ❌🔑
 
-This project features a WebUI utilizing the [G4F API](https://github.com/xtekky/gpt4free). <br>
-Experience the power of ChatGPT with a user-friendly interface, enhanced jailbreaks, and completely free.  
+Dieses Projekt bietet eine WebUI, die die [G4F API](https://github.com/xtekky/gpt4free) nutzt.  
+Erleben Sie die Kraft von ChatGPT mit einer benutzerfreundlichen Oberfläche, verbesserten Jailbreaks und völlig kostenlos.
 
-**Important!** Don't be afraid to ask a question or write about any problem in the "issue".  
-We will solve a question or a problem together! 🌍  
+**Wichtig!** Scheuen Sie sich nicht, eine Frage zu stellen oder ein Problem im "Issue" zu melden.  
+Wir werden die Frage oder das Problem gemeinsam lösen! 🌍
 
-You can [buy me coffee](https://www.donationalerts.com/r/vadimboevdev) here ☕🤎
+Sie können mir [hier einen Kaffee kaufen](https://www.donationalerts.com/r/vadimboevdev) ☕🤎
 
-## Known bugs 🚧
-- Copying highlighted Text not working.
+## Bekannte Fehler 🚧
+- Kopieren von markiertem Text funktioniert nicht.
 
-## Features v2 📢
-- Updated g4f
-- Fixes to make everything work
+## Funktionen v2 📢
+- Aktualisiertes g4f
+- Fehlerbehebungen, um alles funktionsfähig zu machen
 
-## Project Hosting and Demonstration 🌐🚀
-The project is hosted on multiple platforms to be tested and modified.
-|Platform|Status|API Key|Free|Repo|Demo|
+## Projekt-Hosting und Demonstration 🌐🚀
+Das Projekt ist auf mehreren Plattformen gehostet, um getestet und modifiziert zu werden.
+|Plattform|Status|API-Schlüssel|Kostenlos|Repo|Demo|
 |--|--|--|--|--|--|
-|[My site](http://vadimboev.ru:1338/)|![Active](https://img.shields.io/badge/Active-brightgreen)|◼️|☑️|[FreeGPT WebUI](https://github.com/VadimBoev/freegpt-webui-v2)|[Chat](http://vadimboev.ru:1338/)
+|[Meine Seite](http://vadimboev.ru:1338/)|![Aktiv](https://img.shields.io/badge/Active-brightgreen)|◼️|☑️|[FreeGPT WebUI](https://github.com/VadimBoev/freegpt-webui-v2)|[Chat](http://vadimboev.ru:1338/)
 
-## Table of Contents  
-- [To-Do List](#to-do-list-%EF%B8%8F)  
-- [Getting Started](#getting-started-white_check_mark)  
-  - [Cloning the Repository](#cloning-the-repository-inbox_tray)  
-  - [Install Dependencies](#install-dependencies-wrench)  
-- [Running the Application](#running-the-application-rocket)
-- [Incorporated Projects](#incorporated-projects-busts_in_silhouette)
+## Inhaltsverzeichnis
+- [To-Do-Liste](#to-do-list-%EF%B8%8F)  
+- [Erste Schritte](#erste-schritte-white_check_mark)  
+  - [Repository klonen](#repository-klonen-inbox_tray)  
+  - [Abhängigkeiten installieren](#abhängigkeiten-installieren-wrench)  
+- [Anwendung ausführen](#anwendung-ausführen-rocket)
+- [Integrierte Projekte](#integrierte-projekte-busts_in_silhouette)
   - [WebUI](#webui) 
   - [API FreeGPT](#api-g4f)
-- [Star History](#star-history)
-- [Legal Notice](#legal-notice) 
+- [Sternhistorie](#sternhistorie)
+- [Rechtlicher Hinweis](#rechtlicher-hinweis)
 
-## Getting Started :white_check_mark:  
-To get started with this project, you'll need to clone the repository and have [Python](https://www.python.org/downloads/) installed on your system.  
-(Version 3.10+ is recommended. It also works for me on 3.9.2 in debian 11).
-  
-### Cloning the Repository :inbox_tray:
-Run the following command to clone the repository:  
+## Erste Schritte :white_check_mark:  
+Um mit diesem Projekt zu beginnen, müssen Sie das Repository klonen und [Python](https://www.python.org/downloads/) auf Ihrem System installiert haben.  
+(Version 3.10+ wird empfohlen. Es funktioniert auch mit 3.9.2 unter Debian 11).
+
+### Repository klonen :inbox_tray:
+Führen Sie den folgenden Befehl aus, um das Repository zu klonen:
 
 ```
 git clone https://github.com/VadimBoev/freegpt-webui-v2.git
 ```
 
-### Install Dependencies :wrench: 
-Navigate to the project directory:
+### Abhängigkeiten installieren :wrench:
+Navigieren Sie zum Projektverzeichnis:
 ```
 cd freegpt-webui-v2
 ```
 
-Install the dependencies:
+Installieren Sie die Abhängigkeiten:
 ```
 pip install -r requirements.txt
 ```
-## Running the Application :rocket:
-To run the application, run the following command:
+
+## Anwendung ausführen :rocket:
+Um die Anwendung auszuführen, verwenden Sie den folgenden Befehl:
 ```
 python3 run.py
 ```
 
-Access the application in your browser using the URL:
+Zugriff auf die Anwendung über Ihren Browser mit der URL:
 ```
 http://127.0.0.1:1338
 ```
-or
+oder
 ```
 http://localhost:1338
 ```
 
 ## Docker 🐳
-### Prerequisites
-Before you start, make sure you have installed [Docker](https://www.docker.com/get-started) on your machine.
+### Voraussetzungen
+Bevor Sie beginnen, stellen Sie sicher, dass Sie [Docker](https://www.docker.com/get-started) auf Ihrem Rechner installiert haben.
 
-### Running the Docker
-Dockerfile for creating a Docker image yourself  
-Then we can create an image using the following commands:
+### Docker ausführen
+Dockerfile zum Erstellen eines Docker-Images  
+Dann können wir ein Image mit den folgenden Befehlen erstellen:
 ```
 git clone https://github.com/VadimBoev/freegpt-webui-v2.git cd freegpt-webui-v2
 ```
 
-Build image:
+Image erstellen:
 ```
 docker build -f Dockerfile -t freegpt-webui-v2 .
 ```
 
-Run the application using Docker:
+Führen Sie die Anwendung mit Docker aus:
 ```
 docker run -p 1338:1338 freegpt-webui-v2:latest
 ```
 
-Access the application in your browser using the URL:
+Zugriff auf die Anwendung über Ihren Browser mit der URL:
 ```
 http://127.0.0.1:1338
 ```
-or
+oder
 ```
 http://localhost:1338
 ```
 
-When you're done using the application, stop the Docker containers using the following command:
+Wenn Sie mit der Nutzung der Anwendung fertig sind, stoppen Sie die Docker-Container mit dem folgenden Befehl:
 ```
 docker stop <container-id>
 ```
 
-## Incorporated Projects :busts_in_silhouette:
-I highly recommend visiting and supporting both projects.
+## Integrierte Projekte :busts_in_silhouette:
+Ich empfehle dringend, beide Projekte zu besuchen und zu unterstützen.
 
 ### WebUI
-The application interface was incorporated from the [chatgpt-clone](https://github.com/xtekky/chatgpt-clone) repository.
+Die Anwendungsoberfläche wurde aus dem Repository [chatgpt-clone](https://github.com/xtekky/chatgpt-clone) übernommen.
 
 ### API G4F
-The free GPT-4 API was incorporated from the [GPT4Free](https://github.com/xtekky/gpt4free) repository.
+Die kostenlose GPT-4-API wurde aus dem Repository [GPT4Free](https://github.com/xtekky/gpt4free) übernommen.
 
 <br>
 
-## Star History
-[![Star History Chart](https://api.star-history.com/svg?repos=VadimBoev/freegpt-webui-v2&type=Timeline)](https://star-history.com/#VadimBoev/freegpt-webui-v2&Timeline)
+## Sternhistorie
+[![Sternhistorie-Diagramm](https://api.star-history.com/svg?repos=VadimBoev/freegpt-webui-v2&type=Timeline)](https://star-history.com/#VadimBoev/freegpt-webui-v2&Timeline)
 
 <br>
 
-## Legal Notice
-This repository is _not_ associated with or endorsed by providers of the APIs contained in this GitHub repository. This
-project is intended **for educational purposes only**. This is just a little personal project. Sites may contact me to
-improve their security or request the removal of their site from this repository.
+## Rechtlicher Hinweis
+Dieses Repository ist _nicht_ mit den Anbietern der in diesem GitHub-Repository enthaltenen APIs verbunden oder wird von ihnen unterstützt. Dieses Projekt ist ausschließlich **für Bildungszwecke** gedacht. Es handelt sich lediglich um ein kleines persönliches Projekt. Websites können mich kontaktieren, um ihre Sicherheit zu verbessern oder die Entfernung ihrer Website aus diesem Repository zu beantragen.
 
-Please note the following:
+Bitte beachten Sie Folgendes:
 
-1. **Disclaimer**: The APIs, services, and trademarks mentioned in this repository belong to their respective owners.
-   This project is _not_ claiming any right over them nor is it affiliated with or endorsed by any of the providers
-   mentioned.
+1. **Haftungsausschluss**: Die in diesem Repository erwähnten APIs, Dienste und Marken gehören ihren jeweiligen Inhabern. Dieses Projekt beansprucht keinerlei Rechte an ihnen und steht in keiner Verbindung zu den genannten Anbietern und wird nicht von ihnen unterstützt.
 
-2. **Responsibility**: The author of this repository is _not_ responsible for any consequences, damages, or losses
-   arising from the use or misuse of this repository or the content provided by the third-party APIs. Users are solely
-   responsible for their actions and any repercussions that may follow. We strongly recommend the users to follow the
-   TOS of the each Website.
+2. **Verantwortung**: Der Autor dieses Repositories ist _nicht_ verantwortlich für etwaige Folgen, Schäden oder Verluste, die aus der Nutzung oder dem Missbrauch dieses Repositories oder der Inhalte der Drittanbieter-APIs entstehen. Die Benutzer sind allein verantwortlich für ihre Handlungen und etwaige Konsequenzen, die daraus entstehen können. Wir empfehlen den Benutzern dringend, die AGB der jeweiligen Websites zu befolgen.
 
-3. **Educational Purposes Only**: This repository and its content are provided strictly for educational purposes. By
-   using the information and code provided, users acknowledge that they are using the APIs and models at their own risk
-   and agree to comply with any applicable laws and regulations.
+3. **Nur für Bildungszwecke**: Dieses Repository und seine Inhalte werden ausschließlich zu Bildungszwecken bereitgestellt. Durch die Nutzung der bereitgestellten Informationen und des Codes erkennen die Benutzer an, dass sie die APIs und Modelle auf eigenes Risiko verwenden und sich verpflichten, alle geltenden Gesetze und Vorschriften einzuhalten.
 
-4. **Copyright**: All content in this repository, including but not limited to code, images, and documentation, is the
-   intellectual property of the repository author, unless otherwise stated. Unauthorized copying, distribution, or use
-   of any content in this repository is strictly prohibited without the express written consent of the repository
-   author.
+4. **Urheberrecht**: Alle Inhalte in diesem Repository, einschließlich, aber nicht beschränkt auf Code, Bilder und Dokumentation, sind das geistige Eigentum des Autors dieses Repositories, sofern nicht anders angegeben. Das unerlaubte Kopieren, Verteilen oder Verwenden von Inhalten aus diesem Repository ist ohne ausdrückliche schriftliche Zustimmung des Autors strengstens untersagt.
 
-5. **Indemnification**: Users agree to indemnify, defend, and hold harmless the author of this repository from and
-   against any and all claims, liabilities, damages, losses, or expenses, including legal fees and costs, arising out of
-   or in any way connected with their use or misuse of this repository, its content, or related third-party APIs.
+5. **Entschädigung**: Die Benutzer erklären sich damit einverstanden, den Autor dieses Repositories von jeglichen Ansprüchen, Verbindlichkeiten, Schäden, Verlusten oder Ausgaben, einschließlich Anwaltskosten, freizustellen, die sich aus der Nutzung oder dem Missbrauch dieses Repositories, seiner Inhalte oder der zugehörigen Drittanbieter-APIs ergeben.
 
-6. **Updates and Changes**: The author reserves the right to modify, update, or remove any content, information, or
-   features in this repository at any time without prior notice. Users are responsible for regularly reviewing the
-   content and any changes made to this repository.
+6. **Aktualisierungen und Änderungen**: Der Autor behält sich das Recht vor, Inhalte, Informationen oder Funktionen in diesem Repository jederzeit ohne vorherige Ankündigung zu ändern, zu aktualisieren oder zu entfernen. Die Benutzer sind dafür verantwortlich, die Inhalte regelmäßig zu überprüfen und sich über Änderungen in diesem Repository zu informieren.
 
-By using this repository or any code related to it, you agree to these terms. The author is not responsible for any
-copies, forks, or reuploads made by other users. This is the author's only account and repository. To prevent
-impersonation or irresponsible actions, you may comply with the GNU GPL license this Repository uses.
+Durch die Nutzung dieses Repositories oder eines damit verbundenen Codes stimmen Sie diesen Bedingungen zu. Der Autor ist nicht verantwortlich für etwaige Kopien, Forks oder erneute Uploads, die von anderen Benutzern erstellt wurden. Dies ist das einzige Konto und Repository des Autors. Um Nachahmungen oder unverantwortliche Handlungen zu verhindern, halten Sie sich bitte an die GNU GPL-Lizenz, die dieses Repository verwendet.
